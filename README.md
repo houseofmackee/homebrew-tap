@@ -8,8 +8,10 @@ and annotations.
 brew install --cask houseofmackee/tap/cleanshotz
 ```
 
-This also links the `cleanshotz` command line tool. Update with
-`brew upgrade --cask cleanshotz`. `brew uninstall --zap --cask cleanshotz`
+This also links the `cleanshotz` command line tool. CleanShotZ updates
+itself (Check for Updates… in its menu), so `brew upgrade` leaves it alone;
+`brew upgrade --cask --greedy cleanshotz` updates it through Homebrew
+instead. `brew uninstall --zap --cask cleanshotz`
 also removes its settings, history and logs.
 
 CleanShotZ needs macOS 14 or later on Apple silicon. Releases are signed with
