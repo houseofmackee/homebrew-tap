@@ -1,6 +1,6 @@
 cask "cleanshotz" do
-  version "0.7.0"
-  sha256 "a0f34bf74200bb782b4f506b10eb12271f9d0cf1369db045cb4c7896c4f3afe1"
+  version "0.8.0"
+  sha256 "fd0dbb34dd645f640487605dbceeb8e918f51b36ddc1c398106509cb1bb4951c"
 
   url "https://github.com/houseofmackee/cleanshotz/releases/download/v#{version}/CleanShotZ-#{version}.dmg"
   name "CleanShotZ"
