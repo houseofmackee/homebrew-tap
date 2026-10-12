@@ -1,19 +1,23 @@
 # houseofmackee/tap
 
-Homebrew casks for [CleanShotZ](https://github.com/houseofmackee/cleanshotz),
-a free and open source macOS menu bar app for screenshots, screen recordings
-and annotations.
+Homebrew casks for free and open source macOS menu bar apps:
+
+- [CleanShotZ](https://github.com/houseofmackee/cleanshotz): screenshots,
+  screen recordings and annotations.
+- [Yoinks](https://github.com/houseofmackee/yoinks): a drag-and-drop shelf
+  with clipboard history.
 
 ```sh
 brew install --cask houseofmackee/tap/cleanshotz
+brew install --cask houseofmackee/tap/yoinks
 ```
 
-This also links the `cleanshotz` command line tool. CleanShotZ updates
-itself (Check for Updates… in its menu), so `brew upgrade` leaves it alone;
-`brew upgrade --cask --greedy cleanshotz` updates it through Homebrew
-instead. `brew uninstall --zap --cask cleanshotz`
-also removes its settings, history and logs.
+Each cask also links the app's command line tool (`cleanshotz`, `yoinks`).
+Both apps update themselves (Check for Updates… in their menus), so
+`brew upgrade` leaves them alone; `brew upgrade --cask --greedy <name>`
+updates one through Homebrew instead. `brew uninstall --zap --cask <name>`
+also removes its settings and data.
 
-CleanShotZ needs macOS 14 or later on Apple silicon. Releases are signed with
-a Developer ID and notarized by Apple. The cask is updated automatically when
-a new release is published.
+Both need Apple silicon: CleanShotZ macOS 14 or later, Yoinks macOS 13 or
+later. Releases are signed with a Developer ID and notarized by Apple. The
+casks are updated automatically when a new release is published.
