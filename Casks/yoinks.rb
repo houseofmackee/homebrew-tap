@@ -1,6 +1,6 @@
 cask "yoinks" do
-  version "0.5.0"
-  sha256 "9e7fe5d9daf3f6eb9170cd0587a46e4534692cf8018a89c0deedfce94789ba91"
+  version "0.6.0"
+  sha256 "4cce59c54ad46e4b7ba6164fc667fc8a2d0a799cddfa867cb69297934bd19aa1"
 
   url "https://github.com/houseofmackee/yoinks/releases/download/v#{version}/Yoinks-#{version}.dmg"
   name "Yoinks"
