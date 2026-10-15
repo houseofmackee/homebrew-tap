@@ -1,6 +1,6 @@
 cask "pasted" do
-  version "0.3.2"
-  sha256 "43ae77e2fa3a69333e8f1be63059d8c25f8144a2bb359c541b418909d77089e8"
+  version "0.3.3"
+  sha256 "2c53a7ba7325f75fb11315a12aff5e00c18d523d24ad23cd897dbe11eed03696"
 
   url "https://github.com/houseofmackee/pasted/releases/download/v#{version}/Pasted-#{version}-arm64.dmg"
   name "Pasted"
