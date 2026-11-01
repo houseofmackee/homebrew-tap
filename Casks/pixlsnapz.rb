@@ -1,6 +1,6 @@
 cask "pixlsnapz" do
-  version "0.2.0"
-  sha256 "0845c844365bee1bb5c8ff5dbc58c2f1c93e53ea3e92d6a081de40beade71695"
+  version "0.3.0"
+  sha256 "d0b8a95822dedfc6c746b2c28c3538767e4095800b531dabd0c957ec695c613f"
 
   url "https://github.com/houseofmackee/pixlsnapz/releases/download/v#{version}/PixlSnapz-#{version}-arm64.dmg"
   name "PixlSnapz"
