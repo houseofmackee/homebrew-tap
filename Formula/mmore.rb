@@ -5,23 +5,23 @@ class Mmore < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/houseofmackee/mmore/releases/download/v0.2.0/mmore-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "64c19e5ba4dc5f2274d5c0645829741bad72999e8cb7c1258f8a1870f3ca872e"
+      url "https://github.com/houseofmackee/mmore/releases/download/v0.3.0/mmore-0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9e05dab659f33bdea9e8b06c1840a7d4276c02ff2c0236f070a0edb4b99c5f52"
     end
     on_intel do
-      url "https://github.com/houseofmackee/mmore/releases/download/v0.2.0/mmore-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ca2c35ee9b77f0f067233c35d8552c7a243967b0f78a7506978b1ccf04b3652d"
+      url "https://github.com/houseofmackee/mmore/releases/download/v0.3.0/mmore-0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "72c1174334978b0ac23d8e8e69e8b7285b6ac45a83afb656ada13fc85ca42f61"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/houseofmackee/mmore/releases/download/v0.2.0/mmore-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0ff4cb95c538c0b1e0c84b1b4409af038c93af9d54f451a8d2131c34e662cfdc"
+      url "https://github.com/houseofmackee/mmore/releases/download/v0.3.0/mmore-0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0a0659c680643106e0d2ff56680e32999be0a64bd6eea3e40243157e496051b1"
     end
     on_intel do
-      url "https://github.com/houseofmackee/mmore/releases/download/v0.2.0/mmore-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c90059d39239a951ba337e50ea7693c95842b3ec5c904606b97bb65ce6411593"
+      url "https://github.com/houseofmackee/mmore/releases/download/v0.3.0/mmore-0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4a87b8209b7c1c1570a48b02e8d8a84f1d4c443dc7105743e3942bc11a6c85b0"
     end
   end
 
