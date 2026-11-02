@@ -1,6 +1,9 @@
 # houseofmackee/tap
 
-Homebrew casks for free and open source macOS menu bar apps:
+Homebrew casks for free and open source macOS menu bar apps, and a formula for a
+command line tool.
+
+## Apps
 
 - [CleanShotZ](https://github.com/houseofmackee/cleanshotz): screenshots,
   screen recordings and annotations.
@@ -27,3 +30,16 @@ also removes its settings and data.
 All need Apple silicon: CleanShotZ, Pasted, and PixlSnapz macOS 14 or later,
 Yoinks macOS 13 or later. Releases are signed with a Developer ID and notarized by Apple. The
 casks are updated automatically when a new release is published.
+
+## Command line tools
+
+- [mmore](https://github.com/houseofmackee/mmore): a pager like `more`, with
+  Markdown rendering and syntax highlighting. For macOS (Apple silicon and Intel)
+  and Linux.
+
+```sh
+brew install houseofmackee/tap/mmore
+```
+
+The formula is updated automatically when a new release is published, so
+`brew upgrade` keeps it current.
