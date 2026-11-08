@@ -1,6 +1,6 @@
 cask "forkz" do
-  version "0.16.3"
-  sha256 "89577b2d380b8f4005d77ccc6eb21fd1a4b0904a6ab5b778d865209fc69e91cf"
+  version "0.16.4"
+  sha256 "ce994fce4ec5854687d9f041a4ff6c323a8e51a2cd02c85fef0946359db4380f"
 
   url "https://github.com/houseofmackee/forkz/releases/download/v#{version}/forkz-#{version}-arm64.dmg"
   name "forkz"
