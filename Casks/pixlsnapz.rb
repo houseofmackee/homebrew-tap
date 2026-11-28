@@ -24,6 +24,7 @@ cask "pixlsnapz" do
   zap trash: [
     "~/Library/Application Support/PixlSnapz",
     "~/Library/Caches/io.github.houseofmackee.pixlsnapz",
+    "~/Library/Caches/PixlSnapz",
     "~/Library/HTTPStorages/io.github.houseofmackee.pixlsnapz",
     "~/Library/Preferences/io.github.houseofmackee.pixlsnapz.plist",
   ]
